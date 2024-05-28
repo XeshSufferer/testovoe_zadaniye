@@ -46,7 +46,6 @@ public class PlayerController : MonoBehaviour
         }else 
         {
             Walk("idle");
-            Left = false;
         }
         if(Input.GetKeyDown(_Bind[3]))
         {
